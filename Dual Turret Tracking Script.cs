@@ -82,7 +82,7 @@ List<IMyThrust> RightThrusters = new List<IMyThrust>();
 
 
 public Program() {
-    Runtime.UpdateFrequency = UpdateFrequency.Update1;
+    Runtime.UpdateFrequency = UpdateFrequency.Update100;
     
 
     // Preload values to prevent misfire
